@@ -22,6 +22,12 @@ backend/contacts.db
 backend/*.log
 frontend/*.log
 
+# Build Artifacts
+dist/
+backend/dist/
+frontend/dist/
+build/
+
 # Operating System Files
 .DS_Store
 Thumbs.db
