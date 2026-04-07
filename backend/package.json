@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@deepgram/sdk": "^3.3.0",
+    "@google/genai": "^1.48.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.5.0",
+    "@types/ws": "^8.18.1",
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "twilio": "^5.13.1",
+    "typescript": "^6.0.2",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "start": "ts-node src/server.ts"
+  }
+}
