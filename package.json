@@ -8,5 +8,9 @@
     "install:all": "cd frontend && npm install && cd ../backend && npm install",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && npm run dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.4",
+    "@netlify/functions": "^5.1.5"
   }
 }
