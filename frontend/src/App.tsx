@@ -13,7 +13,7 @@ interface Contact {
   notes: string | null;
 }
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const getCountryInfo = (number: string) => {
   const clean = number.replace(/\s/g, '');
