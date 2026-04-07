@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { UploadCloud, PhoneCall, CheckCircle2, XCircle, Activity, Waves, Edit2, Save, Trash2, X, PhoneOff } from 'lucide-react';
+import { UploadCloud, PhoneCall, Activity, Waves, Edit2, Save, Trash2, X, PhoneOff } from 'lucide-react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 
